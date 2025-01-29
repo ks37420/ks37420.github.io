@@ -9,7 +9,7 @@ nav {
     color: white;
     display: flex;
     justify-content: space-between;
-    border: double 5px black;
+    border: double 0px black;
 }
 
 nav p, nav a {
@@ -28,7 +28,7 @@ footer {
     color: white;
     display: flex;
     justify-content: center;
-    border: double 5px #000000;
+    border: double 0px #000000;
     padding: 5px;
 }
 
@@ -74,6 +74,8 @@ section {
     margin-bottom: 20px;
     padding: 10px;
     font-family: 'Roboto Mono', monospace;
+    border: dashed 1px;
+    margin: 10px;
 }
 
 /* Section Headings */
@@ -120,14 +122,15 @@ dl dd{
 .three-col {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px
+    gap: 20px;
 }
 
 .card {
-    border: double 5px black;
+    border: dashed 2px black;
     background-color: #a3cef6;
     font-family: 'Roboto Mono', monospace;
     box-shadow: 0 4px 8px 0 #707070;
+    justify-self: center;
 }
 
 .card img {
