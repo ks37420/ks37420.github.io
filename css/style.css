@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    margin: 0px;
+}
+
+/* Nav Styles */
+nav {
+    background-color: #a3cef6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border: double 5px black;
+}
+
+nav p, nav a {
+    margin: 10px 20px;
+}
+
+nav a {}
+
+nav a:hover {}
+
+/* Footer Styles */
+footer {
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {}
+
+footer a:hover {}
+
+/* Splash Section */
+.splash {
+    font-family: "Source Code Pro", serif;
+}
+
+.splash h1 {
+    font-family: monospace;
+    color: red;
+}
+
+.splash img {
+    border-radius: 50%;
+}
+
+.splash p {
+    font-family: monospace, serif;
+}
+
+/* Horizontal Rules */
+hr {
+    border-width: 10px;
+    border: dashed;
+}
+
+/* Sections */
+section {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-family: monospace, serif;
+}
+
+/* Section Headings */
+section h2 {
+    color: red;
+    justify-self: center;
+}
+
+/* Paragraph Styles */
+section p {}
+
+/* link styles */
+section a {}
+section a:hover {
+    font-style: oblique;
+}
+
+/* List Styles */
+ul {
+    list-style: inside;
+}
+
+dl {
+    display: grid;
+}
+dl dt{}
+dl dd{}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px
+}
+
+.card {
+    border: solid 1px black;
+    background-color: #a3cef6;
+    font-family: monospace, serif;
+}
+
+.card img {
+    display: flex;
+    justify-self: center;
+}
+
+.card h3 {
+    justify-self: center;
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {}
+
+form input, form textarea {}
+
+form input:focus, form textarea:focus {}
+
+form button {}
+
+form button:hover {}
